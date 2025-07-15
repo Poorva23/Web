@@ -3,6 +3,18 @@
 
 console.log("Script Start");
 
+// let timeout;
+// const searchInput = document.getElementById("searchInput");
+// searchInput.addEventListener("input", (event) => {
+//     setTimeout(() => {
+//         console.log("EVENT:", event.target.value);
+//     },2000)
+//     clearTimeout(timeout);
+//     timeout = setTimeout(() => {
+//         console.log("EVENT:", event.target.value);
+//     }, 2000);
+// })
+
 // Debounce function waits for user to stop typing
 function debounce(fn, delay) {
     let timeoutId;
