@@ -1,0 +1,134 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #fbeeff, #e6ccff);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+  color: #6a0dad;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea,
+form select,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+form button {
+  background-color: #a85cf9;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border: none;
+}
+
+form button:hover {
+  background-color: #8c3bf2;
+}
+
+.toggle-btn {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 10px 20px;
+  background-color: #6a0dad;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  background-color: #5700b3;
+}
+
+.hidden {
+  display: none;
+}
+
+#publishedSection {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fdfaff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(106, 13, 173, 0.15);
+}
+
+.section-heading {
+  text-align: center;
+  color: #6a0dad;
+  margin-bottom: 20px;
+}
+
+.blog {
+  background-color: #fff;
+  border: 1px solid #dedede;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.blog h2 {
+  margin: 0 0 8px 0;
+  color: #4a148c;
+}
+
+.blog p {
+  margin: 4px 0;
+}
+
+.blog a {
+  color: #8e24aa;
+  text-decoration: none;
+}
+
+.blog a:hover {
+  text-decoration: underline;
+}
+
+.blog button {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 6px 12px;
+  background-color: #c084f5;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.blog button:hover {
+  background-color: #a85cf9;
+}

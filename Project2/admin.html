@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <h1 class="heading">Publish a Blog</h1>
+
+  <div class="form-container">
+    <form id="blogForm">
+      <input type="hidden" id="blogId" />
+      <input type="text" id="title" placeholder="Blog Title" required />
+      <input type="url" id="blogUrl" placeholder="Blog URL" required />
+      <textarea id="content" placeholder="Blog Description" required></textarea>
+      <input type="text" id="author" placeholder="Published By" required />
+      <label for="category">Category</label>
+      <select id="category" required>
+        <option value="">Select Category</option>
+        <option value="food">Food</option>
+        <option value="travel">Travel</option>
+        <option value="shows">Shows</option>
+      </select>
+      <button type="submit">Publish</button>
+    </form>
+  </div>
+
+  <button class="toggle-btn" onclick="togglePublished()">View Published Blogs</button>
+
+  <div id="publishedSection" class="hidden">
+    <h2 class="section-heading">Published Blogs</h2>
+    <div id="adminBlogList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
