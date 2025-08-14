@@ -22,4 +22,4 @@ const helloWorld = () =>{
     console.log("HELLO WORLD");
 }
 
-module.exports = { subTwoNumber, sumTwoNumber, divTwoNumber, helloWorld}
+module.exports = {subTwoNumber, sumTwoNumber, divTwoNumber, helloWorld}

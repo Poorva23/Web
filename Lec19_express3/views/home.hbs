@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title> THIS IS HOME PAGE</title>
+    </head>
+    <body>
+        {{>navbar}}
+        <h1>THIS IS HOME PAGE</h1>
+        <h3>STUDENT NAME: {{studentName}}</h3>
+        <h3>STUDENT CLASS: {{studentClass}}</h3>
+
+        <form action="/profile" method="post" enctype="multipart/form-data">
+            <input type="file" name="avatar"/>
+            <button type="submit">Submit</button>
+            </form>
+    </body>
+</html>
